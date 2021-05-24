@@ -1,0 +1,100 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+.login-body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-size: 100% 100vh;
+  background-color: white;
+}
+.login-div {
+  position: absolute;
+  z-index: 2;
+  top: 5vh;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 2rem 2rem 0rem 0rem;
+}
+#logo {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 530;
+  color: rgb(112, 112, 112);
+}
+#logo img {
+  width: 3.8rem;
+  height: 3.8rem;
+}
+
+.login-page {
+  width: 100%;
+
+  padding: 1rem;
+}
+#login-tag {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: rgb(73, 71, 71);
+}
+#sent-to-tag {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: rgb(73, 71, 71);
+}
+
+.signup-body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-size: 100% 100vh;
+}
+.signup-div {
+  position: absolute;
+  z-index: 2;
+  top: 5vh;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 2rem 2rem 0rem 0rem;
+}
+#logo {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: rgb(92, 92, 92);
+}
+#logo a img {
+  width: 3.8rem;
+  height: 3.8rem;
+}
+
+.signup-page {
+  width: 100%;
+  padding: 1rem;
+}
+#signup-tag {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: rgb(73, 71, 71);
+}

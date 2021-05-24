@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(233, 232, 240);
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.home_div {
+  width: 100%;
+}
+.popular_restaurants_tag {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.popular_restaurants_tag div {
+  width: 90%;
+  padding: 3%;
+  border-bottom: 1px solid rgb(177, 175, 175);
+}
+
+.popular_restaurants_tag div p {
+  font-size: 1.8rem;
+}
+.popular_restaurants_tag div span {
+  font-size: 0.8rem;
+}
+
+.popular_food_tag {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.popular_food_tag div {
+  width: 90%;
+  padding: 3%;
+  border-bottom: 1px solid rgb(177, 175, 175);
+}
+
+.popular_food_tag div p {
+  font-size: 1.8rem;
+}
+
+.food_div {
+  width: 100%;
+
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto;
+}
+
+@media only screen and (min-width: 668px) {
+  .food_div {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  .food_div {
+    grid-template-columns: auto auto auto auto;
+  }
+}

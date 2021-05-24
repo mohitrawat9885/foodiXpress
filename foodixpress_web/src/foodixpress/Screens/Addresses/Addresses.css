@@ -1,0 +1,49 @@
+.add-address-div {
+  width: 100%;
+  height: auto;
+}
+.add-address {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4%;
+}
+.add-address-page {
+  padding: 1% 0 5% 0;
+}
+.add-address-tag {
+  padding: 4% 0 5% 0;
+}
+.add-address-tag span {
+  color: gray;
+  font-size: x-large;
+  padding: 2% 5% 2% 0;
+}
+
+.address-input-b {
+  width: 9rem;
+  padding-bottom: 3%;
+  margin-right: 2%;
+}
+.state-city-div {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+.add-address-btn {
+  width: 20rem;
+}
+
+.address-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.borderMe {
+  border: 1px solid lightgray;
+  padding: 2%;
+  margin: 1%;
+}
